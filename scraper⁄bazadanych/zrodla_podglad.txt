@@ -1,0 +1,90 @@
+https://i.media.pl/start,0  # [gmina] Barciany
+https://barczewo.pl/xml  # [gmina] Barczewo
+https://www.bartoszyce.pl/aktualnosci.xml  # [gmina] Bartoszyce
+https://bisztynek.pl/asp/aktualnosci,7  # [gmina] Bisztynek
+https://bisztynek.pl/aktualnosci,7  # [gmina] Bisztynek
+https://www.gminabraniewo.pl/cms/index.php  # [gmina] Braniewo
+https://budry.pl/category/aktualnosci  # [gmina] Budry
+https://dobremiasto.com.pl/aktualnosci  # [gmina] Dobre Miasto
+https://www.dubeninki.pl/asp/kalendarz-imprez,31  # [gmina] Dubeninki
+https://www.dubeninki.pl/kalendarz-imprez,31  # [gmina] Dubeninki
+http://www.dywity.bil-wm.pl/news  # [gmina] Dywity
+https://www.dzialdowo.pl/k/wydarzenia  # [gmina] Działdowo
+https://dabrowno.pl  # [gmina] Dąbrówno
+https://www.gminaelblag.pl  # [gmina] Elbląg
+https://www.elk.pl/wydarzenia  # [gmina] Ełk
+https://www.frombork.pl  # [gmina] Frombork
+https://gietrzwald.pl/sport-i-rekreacja  # [gmina] Gietrzwałd
+https://www.gizycko.pl/sport  # [gmina] Giżycko
+https://ugg.pl/wydarzenia  # [gmina] Giżycko
+https://www.gminabiskupiec.pl/sport/aktualnosci-sport  # [gmina] Gmina Biskupiec
+http://www.bil-wm.pl/news/kajakiem-przez-mazury  # [gmina] Godkowo
+http://www.bil-wm.pl/mapa  # [gmina] Godkowo
+https://www.grodziczno.pl/asp/kalendarz,223  # [gmina] Grodziczno
+https://www.grodziczno.pl/kalendarz,223  # [gmina] Grodziczno
+https://www.powiat.ostroda.pl/en  # [gmina] Grunwald
+https://gorowoilaweckie.pl/category/aktualnosci  # [gmina] Górowo Iławeckie
+https://gorowoil-ug.bip-wm.pl/public  # [gmina] Górowo Iławeckie
+http://www.gmina-ilawa.pl/pl/lista-aktualnosci  # [gmina] Iława
+https://janowiec.com.pl/category/nadchodzace-wydarzenia  # [gmina] Janowiec Kościelny
+https://www.janowo.pl/p,90,kalendarz-imprez  # [gmina] Janowo
+https://www.jonkowo.pl/aktualnosci/info-kom  # [gmina] Jonkowo
+https://www.jonkowo.pl/aktualnosci/inwestycje  # [gmina] Jonkowo
+https://kisielice.warmia.mazury.pl/rozwoj-regionu/aktualnosci-rozwoj-regionu  # [gmina] Kisielice
+http://bip-kolno.sprint.com.pl  # [gmina] Kolno
+https://kozlowo.pl/edukacja-i-sport/wydarzenia-edukacyjne  # [gmina] Kozłowo
+https://kozlowo.pl/kultura/wydarzenia-kulturalne  # [gmina] Kozłowo
+https://www.kruklanki.pl/Kalendarz_wydarzen,146  # [gmina] Kruklanki
+https://www.miastoketrzyn.pl/miasto-ketrzyn  # [gmina] Kętrzyn
+https://lelkowo.warmia.mazury.pl/wydarzenia-i-kultura/aktualnosci  # [gmina] Lelkowo
+http://www.lidzbarkwelski.bil-wm.pl/news  # [gmina] Lidzbark
+https://www.gminalubawa.pl/osp/aktualnosci-osp  # [gmina] Lubawa
+https://lubawa.pl/category/wiadomosci  # [gmina] Lubawa
+https://www.gminalubawa.pl/ankiety  # [gmina] Lubawa
+https://markusy.pl/index.php/category/news  # [gmina] Markusy
+http://maldyty.pl/category/aktualnosci  # [gmina] Małdyty
+http://www.mikolajki.pl  # [gmina] Mikołajki
+https://www.milomlyn.pl/asp/pl_start.asp?typ=14&menu=291&strona=1&sub=87  # [gmina] Miłomłyn
+https://www.milomlyn.pl/pl_licznik.asp  # [gmina] Miłomłyn
+http://www.morag.pl/pl/lista-aktualnosci  # [gmina] Morąg
+https://www.mlynary.pl/artykuly  # [gmina] Młynary
+https://www.nidzica.pl/redir,kalendarium  # [gmina] Nidzica
+https://www.umnowemiasto.pl/zapowiedzi-wydarzen,142  # [gmina] Nowe Miasto Lubawskie
+https://visit.olsztyn.eu  # [gmina] Olsztyn
+http://www.olsztynek.bil-wm.pl/news  # [gmina] Olsztynek
+https://orzysz.pl  # [gmina] Orzysz
+https://www.gminaostroda.pl/sport-aktualnosci  # [gmina] Ostróda
+https://www.ostroda.pl/kalendarz  # [gmina] Ostróda
+https://warmia.mazury.pl/sport-i-zdrowie/aktualnosci  # [gmina] Piecki
+https://pieniezno.pl/news  # [gmina] Pieniężno
+http://www.pisz.pl/pl/lista-aktualnosci  # [gmina] Pisz
+https://pozezdrze.pl/atrakcje  # [gmina] Pozezdrze
+https://pozezdrze.pl/katalog  # [gmina] Pozezdrze
+https://prostki.pl/filmy  # [gmina] Prostki
+https://prostki.pl/katalog  # [gmina] Prostki
+https://www.purda.pl/aktualnosci,3  # [gmina] Purda
+http://ploskinia.eu  # [gmina] Płoskinia
+https://www.braniewo.pl/kalendarz-imprez  # [gmina] Q160814
+https://www.reszel.pl/aktualnosci  # [gmina] Reszel
+https://www.rozogi.pl/index.php/o-gminie  # [gmina] Rozogi
+https://www.ruciane-nida.pl/dla-turysty  # [gmina] Ruciane-Nida
+https://www.ruciane-nida.pl/dla-mieszkanca  # [gmina] Ruciane-Nida
+http://www.ryn.pl/rozklad-jazdy  # [gmina] Ryn
+https://gminasorkwity.pl/category/aktualnosci  # [gmina] Sorkwity
+http://www.stawiguda.com.pl/cgi-bin  # [gmina] Stawiguda
+https://susz.pl  # [gmina] Susz
+https://miastoszczytno.pl  # [gmina] Szczytno
+https://ug.szczytno.pl/kalendarz,21  # [gmina] Szczytno
+https://tolkmicko.pl/pl/lista-aktualnosci  # [gmina] Tolkmicko
+https://mazury.com.pl/o-nas  # [gmina] Wieliczki
+https://mazury.com.pl/reklama  # [gmina] Wieliczki
+https://wegorzewo.pl/atrakcje  # [gmina] Węgorzewo
+http://zalewo.pl/index.php/czyste-powietrze  # [gmina] Zalewo
+https://gokkruklanki.pl/gok/kalendarz-imprez  # [gok] Biblioteka i ośrodek kultury
+https://gokpurda.pl/category/nowa-wies  # [gok] Gminny Ośrodek Kultury w Purdzie
+http://gok.jonkowo.pl  # [gok] KULTURA
+http://mok.lubawa.pl/aktualnosci  # [gok] Miejski Ośrodek Kultury
+https://osir.lubawa.pl  # [osir] Ośrodek Sportu i Rekreacji
+https://mosir.elk.pl/kalendarz-imprez  # [osir] mosir.elk.pl
+https://mosirdzialdowo.pl/imprezy  # [osir] mosirdzialdowo.pl
+http://ocsir.pl/events  # [osir] ocsir.pl
