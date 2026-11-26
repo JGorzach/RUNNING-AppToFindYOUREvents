@@ -45,8 +45,8 @@ OUTPUT_JSON = os.path.join(BASE_DIR, "wydarzenia_sportowe.json")
 # - plakaty: najpierw 3.8-flash (lepszy OCR), przy 503/429/404 automatyczny fallback na 3.5-flash-lite
 MODEL_PROVIDER = "gemini/gemini-3.5-flash-lite"
 POSTER_MODELS = [
-    "gemini/gemini-3.8-flash",
     "gemini/gemini-3.5-flash-lite",
+    "gemini/gemini-3.8-flash",
 ]
 
 # Limity pod darmowy plan API (RPM / RPD)
@@ -978,10 +978,22 @@ async def enrich_event_from_detail_page(
 
     return llm_calls, poster_used, True, had_transient_error
 
+MAX_LLM_HTML_CHARS = 45_000
 
+def trim_html_for_llm(cleaned_html: str, max_chars: int = MAX_LLM_HTML_CHARS) -> str:
+    """Usuwa ciężkie SVG/base64 i przycina zbyt długie strony archiwalne."""
+    no_svg = re.sub(r"<svg\b[^>]*>.*?</svg>", "", cleaned_html, flags=re.IGNORECASE | re.DOTALL)
+    no_b64 = re.sub(r"data:image/[^\"'\s)]+", "", no_svg, flags=re.IGNORECASE)
+    if len(no_b64) <= max_chars:
+        return no_b64
+    return no_b64[:max_chars]
 async def scrape_municipalities(urls: list[str]):
     conn = init_db(DB_PATH)
-    browser_cfg = BrowserConfig(headless=True, verbose=False)
+    browser_cfg = BrowserConfig(
+        headless=True,
+        verbose=False,
+        extra_args=["--ignore-certificate-errors"],
+    )
     list_strategy = build_list_strategy()
     detail_strategy = build_detail_strategy()
 
@@ -1033,8 +1045,16 @@ async def scrape_municipalities(urls: list[str]):
 
                 page_res = await crawler.arun(url=url, config=list_fetch_cfg)
                 if not page_res.success or not page_res.cleaned_html:
-                    err_line = (page_res.error_message or "nieznany błąd").splitlines()[0]
-                    print(f"  [BŁĄD POBIERANIA] {err_line[:180]}")
+                    err_text = page_res.error_message or "nieznany błąd"
+                    goto_line = next(
+                        (
+                            line.strip()
+                            for line in err_text.splitlines()
+                            if "Page.goto:" in line or "Blocked" in line
+                        ),
+                        err_text.splitlines()[0],
+                    )
+                    print(f"  [BŁĄD POBIERANIA] {goto_line[:180]}")
                     record_source_failure(conn, url)
                     continue
 
@@ -1049,7 +1069,7 @@ async def scrape_municipalities(urls: list[str]):
 
                 print("  [ZMIANA] Wykryto nową treść — analizuję listę wydarzeń...")
                 raw_items = await extract_from_html_with_retry(
-                    crawler, page_res.cleaned_html, list_llm_cfg
+                    crawler, trim_html_for_llm(page_res.cleaned_html), list_llm_cfg
                 )
                 stats["llm_calls"] += 1
 

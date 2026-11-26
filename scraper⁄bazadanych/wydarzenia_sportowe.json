@@ -2,7 +2,7 @@
   {
     "title": "11. Bieg Andrzejkowy w Szczytnie - zapraszamy do wspólnego świętowania!",
     "event_date": "2026-11-28",
-    "time": null,
+    "time": "09:00",
     "location": "Plaża Miejska w Szczytnie",
     "discipline": "bieganie",
     "url": "https://miastoszczytno.pl/miasto/pl/aktualnosc/11-bieg-andrzejkowy-w-szczytnie-zapraszamy-do-wspolnego-swietowania",
@@ -31,5 +31,16 @@
     "summary": "Ełcki Maraton Pieszy na Orientację – Ełcka Zmarzlina 2027 na dystansach TP 50 km i TP 25 km.",
     "source_page": "https://www.elk.pl/wydarzenia",
     "first_seen": "2026-11-25T17:46:26"
+  },
+  {
+    "title": "X BIEG NOCY LISTOPADOWEJ",
+    "event_date": null,
+    "time": null,
+    "location": null,
+    "discipline": "bieganie",
+    "url": "https://orzysz.pl/aktualnosci/x-bieg-nocy-listopadowej_454",
+    "summary": "Zaproszenie na X Bieg Nocy Listopadowej.",
+    "source_page": "https://orzysz.pl",
+    "first_seen": "2026-11-26T21:00:51"
   }
 ]
