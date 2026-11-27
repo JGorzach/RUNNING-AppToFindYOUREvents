@@ -1,0 +1,2 @@
+GEMINI_API_KEY= klucz do api gemini do scrapera
+CONTACT_EMAIL=mail do wyszkuwiania stron
